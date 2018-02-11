@@ -7,8 +7,6 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
 
-import static io.restassured.RestAssured.when;
-
 public class ApplicationControllerIT extends BaseIT{
 
     @Test
