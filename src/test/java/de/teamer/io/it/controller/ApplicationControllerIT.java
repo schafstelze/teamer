@@ -1,5 +1,6 @@
-package de.teamer.io.it;
+package de.teamer.io.it.controller;
 
+import de.teamer.io.it.BaseIT;
 import io.restassured.http.ContentType;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
 
-public class ApplicationControllerIT extends BaseIT{
+public class ApplicationControllerIT extends BaseIT {
 
     @Test
     public void get_root_path_should_return_hello_world() {
